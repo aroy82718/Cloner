@@ -44,7 +44,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, BufferedIn
 # ==============================================================
 # SECURITY: token ab code me nahi hai. .env file ya environment variable me set karo:
 #   MASTER_BOT_TOKEN=xxxx   OWNER_ID=123456
-MASTER_BOT_TOKEN = os.getenv("MASTER_BOT_TOKEN", "").strip()
+MASTER_BOT_TOKEN = os.getenv("MASTER_BOT_TOKEN", "8919692865:AAFnJzWeF9XnPzCWqil14JylaKXOQnvF1FM").strip()
 OWNER_ID = int(os.getenv("OWNER_ID", "6914205738"))
 
 DB_NAME = os.getenv("BOTMAKER_DB", "bot_data.db")
